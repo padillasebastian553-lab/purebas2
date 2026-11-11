@@ -132,3 +132,24 @@ img {
     z-index: 1;
     pointer-events: none;
 }
+
+@media (max-width: 1760px) {
+  .IMG1, .IMG2, .IMG3, .IMG4, .IMG5, .IMG6, .IMG7 {
+    position: static;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto 30px 8%;
+  }
+  .IMG1 img, .IMG2 img, .IMG3 img, .IMG4 img,
+  .IMG5 img, .IMG6 img, .IMG7 img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  body { padding: 10px; }
+  h1 { font-size: 1.6rem; }
+  .ini { width: 100%; margin: 20px auto; padding: 15px; }
+  .IMG1, .IMG2, .IMG3, .IMG4, .IMG5, .IMG6, .IMG7 { margin: 0 auto 30px; }
+}
